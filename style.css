@@ -1,4 +1,28 @@
 body{
-    background-color: #1e1e1e;
-    color:silver;
+    background-color: white;
+    color:black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:11px 32px
+}
+
+button{
+    border:none;
+    background: #18A0FB;
+    color:white;
+    font-size: 18px;
+    padding:11px 32px;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: #18A0FB;
+    font-size: 18px;
+    margin-right: 40px;
+}
+a:hover{
+    text-decoration: underline;
 }
