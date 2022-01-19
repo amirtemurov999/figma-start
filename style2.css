@@ -1,3 +1,9 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0px 124px;
+}
+
 /* ===========================o'zgaruvchilar========================= */
 
 /* ===========================o'zgaruvchilar========================= */
@@ -14,12 +20,6 @@
     color: white;
 }
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 2e049eeaff2962fc9c3a84ed94dcacea53eb512c
 .ml-1{
     margin-left: 4px;
 }.ml-2{
@@ -35,6 +35,15 @@
 
 .logo-section div{
     display: inline-block;
+    color: #209041;
+}
+.logo-section div span:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo-section div span:nth-child(2){
+    font-size: 12px;
+
 }
 .links span{
     display: block;
@@ -50,11 +59,11 @@
     justify-content: space-between;
 }
 .center-section{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
+}   
 
 /* =============================Menubar===================================== */
 
@@ -110,7 +119,74 @@ input{
     margin-right: 10px;
 }
 /* =============================Menubar===================================== */
+/*------------------------adress---------------------------------*/
+.adress{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top: 24px;
+    
+}
+.manzil{
+    background-color: #F7F7F7;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 8px;
+    padding: 8px 0px;
+    border-radius: 8px;
+}
+.manzil svg:first-child{
+    margin: 0px 16px 0px 24px;
+}
+.manzil input::placeholder{
+    font-size: 16px;
+    color: black;
+}
+button{
+    border: none;
+    background-color: #209041;
+    color:white;
+    justify-content: flex-end;
+    border-radius: 5px;
+    height: 40px;
+}
+/*------------------------adress---------------------------------*/
+/* ------------------------------kategoriya----------------------------- */
+.kategoriya{
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.kategoriya span{
+    margin-top: 5px;
+}
+.onphoto{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 
+.hero{
+    position: absolute;
+    
+    right:156px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width:262px;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
 
+.hero svg{
+    margin-top: 20px;
+   
+}
+/* ------------------------------kategoriya----------------------------- */
 
 
