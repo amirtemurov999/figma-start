@@ -1,0 +1,110 @@
+/* ===========================o'zgaruvchilar========================= */
+
+/* ===========================o'zgaruvchilar========================= */
+
+/* ================= super classlar================================== */
+.fs-14{
+    font-size: 14px;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+.white{
+    color: white;
+}
+
+.ml-1{
+    margin-left: 4px;
+}.ml-2{
+    margin-left: 8px;
+}.ml-3{
+    margin-left: 16px;
+}.ml-4{
+    margin-left: 32px;
+}
+
+
+/* ================= super classlar================================== */
+
+.logo-section div{
+    display: inline-block;
+}
+.links span{
+    display: block;
+}
+
+.rubl{
+    color: green;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* =============================Menubar===================================== */
+
+
+.menu-bar{
+    height: 50px;
+    background-color: #043E44ff;
+    margin-top: 13px;
+    border-radius:var(--radius);
+    display: flex;
+    align-items: center;
+    padding: 0 24px     ;
+}
+
+.input{
+    border:none;
+    padding:7px 12px;
+    border-radius: var(--radius);
+    background: white;
+    display: flex;
+    align-items: centers;
+    justify-content: space-between;
+    min-width: 300px;
+}
+input{
+    flex:1;
+    border: none;
+    background: transparent;
+}
+.location{
+    display: flex;
+    align-items: center;
+    background-color: #2C595D;
+    padding: 4px 12px;
+    border-radius: var(--radius);
+    margin-left:24px;
+}
+.location input::placeholder{
+    color: white;
+    font-weight: 600;
+}
+.account{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+    color:white;
+}
+.account svg:first-child{
+    margin-right: 20px;
+}
+.account svg:nth-child(2){
+    margin-right: 10px;
+}
+/* =============================Menubar===================================== */
+
+
+
+
