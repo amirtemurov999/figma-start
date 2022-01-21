@@ -188,5 +188,22 @@ button{
    
 }
 /* ------------------------------kategoriya----------------------------- */
+/* -----------futer-------------- */
+.futer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 287px;
+}
+.futer img{
+    position: absolute;
+}
+.kontak{
+   
+    height: 480px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #209041;
+}
 
-
+/* -----------futer-------------- */
