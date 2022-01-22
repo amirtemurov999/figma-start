@@ -98,6 +98,10 @@ button{
     border: 0;
     color:#ffffff
 }
+button:hover{
+    cursor: pointer;
+    background-color: #E15139;
+}
 .create{
     background-color:#0F5B99;
     width: 211px;
@@ -111,6 +115,10 @@ button{
     display:flex;
     align-items: center;
     margin-left: 16px;
+}
+.create:hover{
+    background-color: #1B69B6;
+    cursor: pointer;
 }
 .body{
     display: flex;
