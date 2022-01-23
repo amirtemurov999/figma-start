@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.plastik{
+    height: 54px;
+    width: 86px;
+    border-radius: 3.5px;
+    background-color: blue;
+}
+.logo{
+    font-size: 5px;
+    text-align: end;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.raqam{
+    font-size: 6px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+}
+.muddat{
+    font-size: 4px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+}
+.a{
+    font-size: 2px;
+    margin-right: 3px;
+
+}
+.nom{
+    font-size: 4px;
+    font-weight: 600;
+    align-items: flex-end;
+    display: flex;
+    height: 9px;
+    margin-left: 2px;
+    color: silver;
+}
+.aa img{
+    height: 10px;
+    width: 22px;
+    margin-left: 3px;
+}
+.raqam{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    justify-content:space-around ;
+}
