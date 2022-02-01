@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.2s;
+}
+.futer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.futer div {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.futer div svg {
+  margin-right: 10px;
+}
+.body {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.zona {
+  width: 60%;
+  min-height: 30%;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  background: rgba(0, 165, 217, 0.19);
+  border: 6px solid #00a5d9;
+}
+#maydon {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+#maydon span {
+  padding: 17px 22px 17px 22px;
+  font-size: 40px;
+  background-color: royalblue;
+  color: white;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+#maydon span:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 970px) {
+  body {
+    font-size: 16px;
+  }
+  body * {
+  }
+  body svg {
+    width: 22px;
+  }
+}
