@@ -3,6 +3,7 @@ body {
   font-size: 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: 0.2s;
+  margin: 0px;
 }
 .futer {
   display: flex;
@@ -19,13 +20,13 @@ body {
 }
 .body {
   display: flex;
-  height: 80%;
+  height: 50%;
   justify-content: center;
   align-items: center;
 }
 .zona {
   width: 60%;
-  min-height: 30%;
+  min-height: 40%;
   display: flex;
 
   flex-direction: column;
@@ -43,25 +44,50 @@ body {
   height: 100%;
   justify-content: center;
 }
-#maydon span {
-  padding: 17px 22px 17px 22px;
+#maydon input {
+  text-align: center;
+  width: 40px;
   font-size: 40px;
   background-color: royalblue;
   color: white;
   margin-right: 20px;
   border-radius: 8px;
+  border: none;
 }
 
-#maydon span:last-child {
+#maydon input:last-child {
   margin-right: 0;
 }
 @media screen and (max-width: 970px) {
   body {
     font-size: 16px;
   }
-  body * {
-  }
+
   body svg {
     width: 22px;
   }
+}
+#maydon input::placeholder {
+  color: white;
+}
+
+.klaviatura div {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.klaviatura span {
+  user-select: none;
+  width: 1.5%;
+  text-align: center;
+  background-color: white;
+  padding: 25px 30px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  box-shadow: 0 3px rgb(216, 216, 216);
+}
+.down {
+  box-shadow: 0 1px green !important;
+  transform: translateY(2px);
 }
